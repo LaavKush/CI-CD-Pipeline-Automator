@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from src.models.workflow import WorkflowRequest
-from src.analysis.analyzer_service import analyze_repository
+from src.analysis.analyzer_service import summarize_repo
 from src.llm.ci_generator import generate_ci_yaml
 from src.github.workflow_committer import commit_workflow
 from src.pipeline.monitor import wait_for_workflow_run
@@ -11,7 +11,7 @@ router = APIRouter()
 async def generate_workflow(payload: WorkflowRequest):
 
     # Step 1 — Analyze repo
-    context = analyze_repository(payload.repo_url)
+    context = summarize_repo(payload.repo_url)
 
     # Step 2 — Generate YAML using LLM
     yaml_str = generate_ci_yaml(context)

@@ -1,2 +1,5 @@
-def explain(log_text: str):
-    return 'explanation'
+def explain_logs(log_text):
+    # Placeholder: return static explanation
+    return {
+        "explanation": "explanation"
+    }
