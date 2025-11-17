@@ -1,10 +1,9 @@
-# Conda environment
+# virtual env
 venv/
-
-# Python
+.env
 __pycache__/
 *.pyc
-*.pyo
+.DS_Store
+.idea/
+.vscode/
 
-# Jupyter
-.ipynb_checkpoints/
