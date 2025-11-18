@@ -1,0 +1,31 @@
+# version: '3.8'
+# services:
+#   api:
+#     build: .
+#     ports:
+#       - "8000:8000"
+version: "3.9"
+
+services:
+  db:
+    image: postgres:14
+    container_name: ci_logs_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ci_logs
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/ci_logs
+    command: ["python", "cli/main.py", "history"]
+
+volumes:
+  db_data:
