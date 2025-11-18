@@ -7,3 +7,8 @@ __pycache__/
 .idea/
 .vscode/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env

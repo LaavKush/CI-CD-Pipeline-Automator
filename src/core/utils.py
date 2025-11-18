@@ -17,3 +17,4 @@ def extract_zip(zip_path: str, extract_to: str):
 def remove_dir(path: str):
     if os.path.exists(path):
         shutil.rmtree(path)
+import zipfile

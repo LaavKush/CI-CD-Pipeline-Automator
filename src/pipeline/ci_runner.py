@@ -17,3 +17,5 @@ def trigger_workflow_dispatch(owner: str, repo: str, workflow_filename: str, ref
     r = requests.post(url, headers=HEADERS, json=payload)
     r.raise_for_status()
     return r.status_code == 204
+def trigger_workflow(repo, workflow):
+    pass

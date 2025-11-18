@@ -40,3 +40,5 @@ def wait_for_run_completion(owner: str, repo: str, run_id: int, timeout: int = 6
         if time.time() - start > timeout:
             raise TimeoutError("Run did not complete within timeout")
         time.sleep(poll_interval)
+def monitor_run(run_id):
+    return 'completed'
