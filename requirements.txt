@@ -14,3 +14,9 @@ pytz==2025.2
 six==1.17.0
 tzdata==2025.2
 zipp==3.20.2
+fastapi
+uvicorn
+python-dotenv
+requests
+gitpython
+pydantic
