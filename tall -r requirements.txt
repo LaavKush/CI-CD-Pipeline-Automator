@@ -1,0 +1,13 @@
+* [33m201c7dd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mAnaya[m[33m, [m[1;31morigin/ifra-treeee[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Anaya[m[33m, [m[1;32mifra-treeee[m[33m)[m Add LLM integration: CI generator, log explainer, fix suggester, and prompt updates
+[31m|[m *   [33mad04691[m[33m ([m[1;31morigin/Github_Integeration[m[33m)[m Merge branch 'Anaya' into Github_Integeration
+[31m|[m [32m|[m[31m\[m  
+[31m|[m [32m|[m[31m/[m  
+[31m|[m[31m/[m[32m|[m   
+[31m|[m * [33ma3a644a[m Github Integration Role 1
+[31m|[m [33m|[m * [33m93eda2d[m[33m ([m[1;31morigin/Anchal[m[33m)[m Added new code in Anchal branch
+[31m|[m [33m|[m * [33mc044d85[m[33m ([m[1;31morigin/laavanya[m[33m)[m Added new changes
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+* [33m|[m [33m2f09c08[m Added auto-generated CI pipeline
+[33m|[m[33m/[m  
+* [33mfad4843[m[33m ([m[1;31morigin/main[m[33m)[m Setup Conda environment, add requirements.txt, .gitignore, README
