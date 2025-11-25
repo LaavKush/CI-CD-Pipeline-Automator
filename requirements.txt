@@ -4,7 +4,8 @@ fonttools==4.57.0
 importlib_resources==6.4.5
 kiwisolver==1.4.7
 matplotlib==3.7.5
-numpy==1.24.4
+numpy==1.26.4
+
 packaging==25.0
 pandas==2.0.3
 pillow==10.4.0
@@ -14,21 +15,13 @@ pytz==2025.2
 six==1.17.0
 tzdata==2025.2
 zipp==3.20.2
-<<<<<<< HEAD
+
 fastapi
 uvicorn
 python-dotenv
 requests
-gitpython
-pydantic
-=======
-
-
-# GitHub Integration & Automation Needs
-requests
-python-dotenv
 GitPython
 PyYAML
 tqdm
 PyGithub
->>>>>>> ad04691c65773010c0909d0ed14da024c966ad95
+pydantic
