@@ -25,3 +25,5 @@ PyYAML
 tqdm
 PyGithub
 pydantic
+pytest
+
